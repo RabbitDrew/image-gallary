@@ -1,0 +1,212 @@
+/*header*/
+.page-header {
+  width: 100%;
+  height: 80px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-bottom: #ffffff 2px solid;
+}
+
+.header__wrapper {
+  max-width: 1440px;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+
+}
+
+.header__logo {
+  text-decoration: none;
+  color: #fff;
+}
+
+.logo-title {
+  font-size: 28px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px; 
+}
+
+.letter {
+  color: #ffac05;
+}
+
+.header-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.search-input {
+  height: 25px;
+  border-radius: 5px;
+
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.15);
+
+
+  border: #fff 1px solid;
+  outline: none; 
+
+  padding: 0 0 0 10px;
+
+  caret-color: #ffac05;
+}
+
+.search-input::placeholder {
+  font-size: 14px;
+  color: #fff;
+}
+
+.search-input:focus {
+  border: #ffac05 1px solid;
+}
+
+
+.btn-search__wrapper {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+   
+}
+
+.btn-search{
+    width: 35px;
+    height: 35px;
+    opacity: 0.75;
+
+    transition: opacity .5s ease;
+}
+
+.btn-search__wrapper:hover .btn-search {
+    opacity: 1;
+}
+
+/*main*/
+.page-main {
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+    gap: 20px;
+
+    padding: 20px 20px 20px 20px;
+}
+
+.images__wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+
+    flex-wrap: wrap;
+
+    gap: 10px;
+}
+
+.img__wrapper {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+}
+.image {
+    aspect-ratio: 16/9;
+    width: 100%;
+    border-radius: 9px;
+    object-fit: cover;
+}
+/*pagination block*/
+.main-btn-block {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.left__wrapper, .right__wrapper {
+    width: 45px;
+    height: 45px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: #fff 2px solid;
+
+    border-radius: 100px;
+
+    transition: border .5s ease;
+    cursor: pointer;
+}
+
+.left__wrapper:hover {
+  border: #ffac05 2px solid;
+}
+
+.right__wrapper:hover {
+  border: #ffac05 2px solid;
+}
+
+
+/*footer*/
+.page-footer {
+  width: 100%;
+  height: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: #fff 2px solid;
+}
+
+.footer-container {
+  max-width: 1440px;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px;
+}
+
+.footer-git__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  text-decoration: none;
+  color: #fff;
+
+
+}
+
+.footer-git__wrapper:hover .git-title {
+  transition: color, .5s ease;
+  color: #ffac05;
+}
+
+.footer-year-wrapper {
+ transform: translateX(-57px);
+}
+
+
+.school_img {
+  width: 45px;
+  height: 45px;
+}
